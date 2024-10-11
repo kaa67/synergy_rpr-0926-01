@@ -1,7 +1,14 @@
-import React from 'react';
+import Navbar from "components/Navbar";
+
+import { BrowserRouter } from 'react-router-dom';
 
 const App = () => (
-  <h1>synergy_rpr-0926-01</h1>
+  <BrowserRouter>
+    <Navbar />
+
+    <div className="container mx-auto px-4">
+    </div>
+  </BrowserRouter>
 );
 
 export default App;
