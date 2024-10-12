@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     extend: {}
@@ -16,40 +16,6 @@ module.exports = {
     prefix: "", // prefix for daisyUI classnames (components, modifiers and responsive class names. Not colors)
     logs: true, // Shows info about daisyUI version and used config in the console when building your CSS
     themeRoot: ":root",
-    // themes: [
-    //   "light",
-    //   "dark",
-    //   "cupcake",
-    //   "bumblebee",
-    //   "emerald",
-    //   "corporate",
-    //   "synthwave",
-    //   "retro",
-    //   "cyberpunk",
-    //   "valentine",
-    //   "halloween",
-    //   "garden",
-    //   "forest",
-    //   "aqua",
-    //   "lofi",
-    //   "pastel",
-    //   "fantasy",
-    //   "wireframe",
-    //   "black",
-    //   "luxury",
-    //   "dracula",
-    //   "cmyk",
-    //   "autumn",
-    //   "business",
-    //   "acid",
-    //   "lemonade",
-    //   "night",
-    //   "coffee",
-    //   "winter",
-    //   "dim",
-    //   "nord",
-    //   "sunset",
-    // ],
   }
 }
 
