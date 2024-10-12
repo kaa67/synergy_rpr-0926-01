@@ -1,4 +1,4 @@
-import { useRoutes } from 'react-router';
+import { Navigate, useRoutes } from 'react-router';
 import { routes } from './routes';
 import NotFound from 'pages/NotFound';
 
@@ -10,6 +10,7 @@ const Routing = () => {
         element: <CurrentComponent />,
       })
     ),
+    { path: '/', element: <Navigate to="/main" /> },
     { path: '*', element: <NotFound /> },
   ];
 

@@ -9,7 +9,7 @@ import { Route } from "types";
 export const routes: Route[] = [
   {
     title: 'Задание',
-    path: '/',
+    path: '/job',
     component: Job,
   },
   {

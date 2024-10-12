@@ -1,6 +1,8 @@
+import Header from 'components/Header';
+
 const NotFound = () => {
   return (
-    <h1>Страница не найдена</h1>
+    <Header>Страница не найдена</Header>
   );
 };
 

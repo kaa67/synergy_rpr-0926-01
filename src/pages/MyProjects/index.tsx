@@ -1,6 +1,8 @@
+import Header from 'components/Header';
+
 const MyProjects = () => {
   return (
-    <h1>My Projects</h1>
+    <Header>My Projects</Header>
   );
 };
 

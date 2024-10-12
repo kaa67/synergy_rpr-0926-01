@@ -1,6 +1,8 @@
+import Header from 'components/Header';
+
 const MyContacts = () => {
   return (
-    <h1>My Contacts</h1>
+    <Header>My Contacts</Header>
   );
 };
 

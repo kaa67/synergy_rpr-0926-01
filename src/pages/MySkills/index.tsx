@@ -1,6 +1,8 @@
+import Header from 'components/Header';
+
 const MySkills = () => {
   return (
-    <h1>My Skills</h1>
+    <Header>My Skills</Header>
   );
 };
 

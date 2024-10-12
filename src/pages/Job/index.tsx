@@ -1,7 +1,7 @@
+import Header from 'components/Header';
+
 const Job = () => {
-  return (
-    <h1>Job</h1>
-  );
+  return <Header>Итоговое задание</Header>;
 };
 
 export default Job;
