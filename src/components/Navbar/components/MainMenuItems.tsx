@@ -1,29 +1,37 @@
-const MainMenuItems = () => (
-  <>
-    <li>
-      <a className="whitespace-nowrap active" href="/">
-        Главная
-      </a>
-    </li>
+import { useLocation } from "react-router";
+import { Link } from "react-router-dom";
 
-    <li>
-      <a className="whitespace-nowrap" href="/">
-        Проекты
-      </a>
-    </li>
+import { routes } from "components/Routing/routes";
 
-    <li>
-      <a className="whitespace-nowrap" href="/">
-        Навыки
-      </a>
-    </li>
+const MainMenuItems = () => {
+  const currentPath = useLocation().pathname;
 
-    <li>
-      <a className="whitespace-nowrap" href="/">
-        Контакты
-      </a>
-    </li>
-  </>
-);
+  const preparedMenuItems = routes.map(
+    ({ title, path }) => ({
+      title,
+      path,
+    })
+  );
+
+  return (
+    <>
+      {preparedMenuItems.map(
+        ({ title, path }, key) => {
+          const aClassName = `whitespace-nowrap${
+            currentPath === path ? ' active' : ''
+          }`;
+
+          return (
+            <li key={key}>
+              <Link className={aClassName} to={path}>
+                {title}
+              </Link>
+            </li>
+          );
+        }
+      )}
+    </>
+  );
+};
 
 export default MainMenuItems;
