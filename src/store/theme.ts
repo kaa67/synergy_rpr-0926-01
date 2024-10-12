@@ -1,8 +1,8 @@
 import { createEffect, createStore } from 'effector';
 
-const initTheme = (): string => {
-  const theme = localStorage.getItem('theme') || 'dark';
-  document.querySelector('html')?.setAttribute('data-theme', theme);
+const initTheme = (defaultTheme: string = 'winter'): string => {
+  const theme = localStorage.getItem('theme') || defaultTheme;
+  setTheme(theme);
 
   return theme;
 };
