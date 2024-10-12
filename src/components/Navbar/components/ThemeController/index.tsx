@@ -1,14 +1,25 @@
-import DropdownButton from "./components/DropdownButton";
-import DropdownContent from "./components/DropdownContent";
+import { useUnit } from "effector-react";
 
-const ThemeController = () => {  
+import { $theme } from "store";
+import { themesList } from "constatnts";
+import Root from "./components/Root";
+import Activator from "./components/Activator";
+import List from "./components/List";
+import ListItem from "./components/ListItem";
+
+const ThemeController = () => {
+  const currentTheme = useUnit($theme);
+
   return (
-    <div className="flex-none">
-      <div className="dropdown">
-        <DropdownButton />
-        <DropdownContent />
-      </div>
-    </div>
+    <Root>
+      <Activator currentTheme={currentTheme} />
+
+      <List>
+        {themesList.map((theme, key) => (
+          <ListItem key={key} theme={theme} currentTheme={currentTheme} />
+        ))}
+      </List>
+    </Root>
   );
 };
 
