@@ -2,6 +2,7 @@ import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
 
 import { routes } from "components/Routing/routes";
+import { MouseEvent } from "react";
 
 const MainMenuItems = () => {
   const currentPath = useLocation().pathname;
@@ -13,6 +14,10 @@ const MainMenuItems = () => {
     })
   );
 
+  const onClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    event.currentTarget.blur()
+  };
+
   return (
     <>
       {preparedMenuItems.map(
@@ -23,7 +28,7 @@ const MainMenuItems = () => {
 
           return (
             <li key={key}>
-              <Link className={aClassName} to={path}>
+              <Link onClick={onClick} className={aClassName} to={path}>
                 {title}
               </Link>
             </li>

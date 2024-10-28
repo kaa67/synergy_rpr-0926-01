@@ -1,6 +1,6 @@
 import { createEffect, createStore } from 'effector';
 
-const initTheme = (defaultTheme: string = 'winter'): string => {
+const initTheme = (defaultTheme: string = 'luxury'): string => {
   const theme = localStorage.getItem('theme') || defaultTheme;
   setTheme(theme);
 

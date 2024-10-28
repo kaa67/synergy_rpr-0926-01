@@ -28,6 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "tailwind": "npx tailwindcss -i ./src/tailwind/input.css -o ./src/tailwind/daizy.css",
+    "tailwindProd": "npx tailwindcss -i ./src/tailwind/input.css -o ./src/tailwind/daizy.css --minify",
     "build": "react-scripts build"
   },
   "eslintConfig": {
