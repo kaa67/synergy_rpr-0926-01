@@ -16,7 +16,7 @@ const List = ({ children }: Props) => {
               p-2
               shadow-2xl
               right-0
-              columns-4"
+              columns-3"
     >
       {children}
     </ul>
