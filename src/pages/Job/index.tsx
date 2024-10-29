@@ -26,11 +26,14 @@ const Job = () => {
         >
           1. Техническое задание
           <br />
-          Ссылка на
-          &nbsp;
-          <a className="link link-primary" href="https://github.com/kaa67/synergy_rpr-0926-01">Rep</a>
-          &nbsp;
-          проекта
+          Ссылка на &nbsp;
+          <a
+            className="link link-primary"
+            href="https://github.com/kaa67/synergy_rpr-0926-01"
+          >
+            Rep
+          </a>
+          &nbsp; проекта
         </div>
 
         <input

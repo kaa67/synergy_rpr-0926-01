@@ -8,11 +8,6 @@ import { Route } from "types";
 
 export const routes: Route[] = [
   {
-    title: 'Задание',
-    path: '/job',
-    component: Job,
-  },
-  {
     title: 'Главная',
     path: '/main',
     component: Main,
@@ -24,12 +19,17 @@ export const routes: Route[] = [
   },
   {
     title: 'Навыки',
-    path: '/skils',
+    path: '/skills',
     component: MySkills,
   },
   {
     title: 'Контакты',
     path: '/contacts',
     component: MyContacts,
+  },
+  {
+    title: 'Задание',
+    path: '/job',
+    component: Job,
   },
 ];
