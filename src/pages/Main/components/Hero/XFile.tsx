@@ -8,7 +8,7 @@ const XFile = () => (
       src={imgKaa}
       alt={fullName}
       style={{ transitionDuration: "500ms" }}
-      className="rounded-lg shadow-2xl grayscale-0 hover:grayscale transition-all size-full lg:size-80"
+      className="max-w-sm rounded-lg shadow-2xl grayscale-0 hover:grayscale transition-all"
     />
 
     <div className="absolute left-0 top-0 bg-black text-gray-400 text-xs border border-gray-400 p-0.5">
