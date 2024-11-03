@@ -3595,7 +3595,16 @@ input.tab:checked + .tab-content,
     .link-primary:hover {
       color: color-mix(in oklab,var(--fallback-p,oklch(var(--p)/1)) 80%,black);
     }
+
+    .link-error:hover {
+      color: color-mix(in oklab,var(--fallback-er,oklch(var(--er)/1)) 80%,black);
+    }
   }
+}
+
+.link-error {
+  --tw-text-opacity: 1;
+  color: var(--fallback-er,oklch(var(--er)/var(--tw-text-opacity)));
 }
 
 .link:focus {
@@ -4231,11 +4240,6 @@ input.tab:checked + .tab-content,
   display: none;
 }
 
-.size-full {
-  width: 100%;
-  height: 100%;
-}
-
 .h-2 {
   height: 0.5rem;
 }
@@ -4258,6 +4262,10 @@ input.tab:checked + .tab-content,
 
 .w-auto {
   width: auto;
+}
+
+.max-w-sm {
+  max-width: 24rem;
 }
 
 .columns-3 {
@@ -4510,12 +4518,6 @@ p {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-@media (min-width: 640px) {
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-}
-
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
@@ -4531,13 +4533,12 @@ p {
 }
 
 @media (min-width: 1024px) {
-  .lg\:size-80 {
-    width: 20rem;
-    height: 20rem;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:justify-start {
