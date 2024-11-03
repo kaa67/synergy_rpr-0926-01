@@ -25,7 +25,7 @@ const Routes = () => {
         <button
           key={key}
           onClick={onClick(route)}
-          className="btn btn-sm btn-neutral"
+          className="btn btn-sm btn-outline"
         >
           {caption}
         </button>
