@@ -5,7 +5,7 @@ import firstBlood from 'media/images/first_blood.jpg';
 const FirstBlood = () => {
   return (
     <section>
-      <SectionHeader>2000-2003гг. First blood. Первый проект</SectionHeader>
+      <SectionHeader>2000-2003 (First blood). Первый проект</SectionHeader>
 
       <div
         className="
