@@ -3,6 +3,8 @@ import ThemeController from "./components/ThemeController";
 import MainMenuItems from "./components/MainMenuItems";
 import Sandwitch from "./components/Sandwitch";
 
+import { fullName } from "utils/constants";
+
 const Navbar = () => (
   <nav className="navbar glass sticky top-0 z-40">
     <div className="container mx-auto flex flex-row justify-between">
@@ -15,14 +17,15 @@ const Navbar = () => (
           <ul
             tabIndex={0}
             className="
-                menu
-                dropdown-content
-                mt-3
-                z-[1]
-                p-2
-                shadow
-                bg-base-300
-                rounded-box w-52"
+              p-2
+              menu
+              mt-3
+              z-[1]
+              shadow
+              bg-base-300
+              dropdown-content
+              rounded-box w-52
+            "
           >
             <MainMenuItems />
           </ul>
@@ -30,7 +33,7 @@ const Navbar = () => (
       </div>
 
       <div className="flex flex-row">
-        <a className="btn btn-ghost text-xl" href="/">
+        <a className="btn btn-ghost text-xl" href="/" title={`Досье ${fullName}`}>
           Портфолио
         </a>
 
