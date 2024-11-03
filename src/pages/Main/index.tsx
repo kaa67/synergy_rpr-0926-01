@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import History from "./components/History";
+import ProductTeamsIntro from "./components/ProductTeamsIntro";
 import ProfessionalExperience from "./components/ProfessionalExperience";
 
 const Main = () => (
@@ -7,6 +8,7 @@ const Main = () => (
     <Hero />
     <ProfessionalExperience />
     <History />
+    <ProductTeamsIntro />
   </section>
 );
 
