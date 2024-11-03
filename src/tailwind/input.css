@@ -2,10 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: url(bg.png) top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: lighten;
+  min-height: 100vh;
+}
+
 h1 {
   margin: 24px 0;
 }
 
 p {
   margin: 16px 0;
+}
+
+.hero-extension {
+  min-height: 64vh;
+  --tw-bg-opacity: 0.5;
+}
+
+.img-wrapper div {
+  transition: 250ms ease-in-out;
+  opacity: 0;
+}
+
+.img-wrapper:hover div {
+  opacity: 1;
 }
