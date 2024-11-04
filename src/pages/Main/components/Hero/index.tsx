@@ -11,9 +11,8 @@ const Hero = () => (
       <XFile />
 
       <div>
-        <SubHeader>Портфолио инженера фронтенда</SubHeader>
-
-        <Header>{fullName}</Header>
+        <Header>Портфолио</Header>
+        <SubHeader>{fullName}</SubHeader>
 
         <p className="py-6 text-center lg:text-left">
           Разработчик современных веб-приложений с высокой степенью
