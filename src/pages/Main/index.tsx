@@ -1,3 +1,4 @@
+import AboutWorkTime from "./components/AboutWorkTime";
 import Hero from "./components/Hero";
 import History from "./components/History";
 import ProductTeamsIntro from "./components/ProductTeamsIntro";
@@ -9,6 +10,7 @@ const Main = () => (
     <ProfessionalExperience />
     <History />
     <ProductTeamsIntro />
+    <AboutWorkTime />
   </section>
 );
 
