@@ -4645,6 +4645,10 @@ input.tab:checked + .tab-content,
   padding-bottom: 1.5rem;
 }
 
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -4739,6 +4743,10 @@ body {
   min-height: 100vh;
 }
 
+.glass {
+  --webkit-backdrop-filter:blur(100px);
+}
+
 h1 {
   margin: 24px 0;
 }
@@ -4769,6 +4777,10 @@ p {
 @media (min-width: 640px) {
   .sm\:flex-row {
     flex-direction: row;
+  }
+
+  .sm\:pb-16 {
+    padding-bottom: 4rem;
   }
 }
 
