@@ -3,67 +3,53 @@ import Header from "components/Header";
 const Job = () => {
   return (
     <>
-      <Header>Итоговое задание</Header>
+      <Header>Это портфолио - экзамен</Header>
 
-      <p>Колосов Андрей Алексеевич</p>
+      <p>
+        Работа была всегда и до портфолио руки не доходили. все по стандарту, сапожник без сапог.
+      </p>
 
-      <p>Группа: РПР-0926-01</p>
+      <p>
+        И вдруг раз, и на моих курсах экзамен: написать портфолио. Вот так и родилось в муках это изделие, как контрольная по ремеслу.
+      </p>
 
-      <p>Время проведения: 26.09.2024 - 06.11.2024</p>
+      <p>
+        Делал с энтузиазмом, как же, ведь теперь оно у меня будет! Ура!!!
+      </p>
 
-      <div role="tablist" className="tabs tabs-lifted">
-        <input
-          type="radio"
-          name="my_tabs_2"
-          role="tab"
-          className="tab"
-          aria-label="1. Техническое задание"
-          defaultChecked
-        />
-        <div
-          role="tabpanel"
-          className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-        >
-          1. Техническое задание
-          <br />
-          Ссылка на &nbsp;
-          <a
+      <p>
+        В связи с хардкорным дедлайном написать на кастоме не выйдет, а потому все по стандарту:
+      </p>
+
+      <p>
+        Взял стилевой фреймворк Tailwind/DaizyUI (Bootstrap надоел за последние 15 лет), библиотеку интерфейсов React. Результат вы видите.
+      </p>
+
+      <p>
+        Тему стилей выбрать не смог, оставляю чейнджер тем в верхнем меню, на вкус и цвет товарища нет!
+      </p>
+
+      <p>
+        На днях экзамен, уух!
+        <br />
+        я - слушатель Колосов Андрей Алексеевич
+        <br />
+        Группа: РПР-0926-01 (26.09.2024-06.11.2024)
+        <br />
+        <a
+            target="_blank"
+            rel="noreferrer"
             className="link link-primary"
             href="https://github.com/kaa67/synergy_rpr-0926-01"
           >
             Rep
           </a>
           &nbsp; проекта
-        </div>
-
-        <input
-          type="radio"
-          name="my_tabs_2"
-          role="tab"
-          className="tab"
-          aria-label="2. Анализ"
-        />
-        <div
-          role="tabpanel"
-          className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-        >
-          2. Анализ
-        </div>
-
-        <input
-          type="radio"
-          name="my_tabs_2"
-          role="tab"
-          className="tab"
-          aria-label="3. Планирование"
-        />
-        <div
-          role="tabpanel"
-          className="tab-content bg-base-100 border-base-300 rounded-box p-6"
-        >
-          3. Планирование
-        </div>
-      </div>
+        <br />
+        Преподаватель курса: Стоян Евгений
+        <br />
+        Пожелайте мне ни пуха ни пера!
+      </p>
     </>
   );
 };
