@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import Navbar from "components/Navbar";
 import Routing from "components/Routing";
+import Footer from 'components/Footer';
 
 
 const App = () => (
@@ -11,6 +12,8 @@ const App = () => (
     <div className="container mx-auto px-4">
       <Routing />
     </div>
+
+    <Footer />
   </BrowserRouter>
 );
 
