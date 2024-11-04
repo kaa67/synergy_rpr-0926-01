@@ -16,6 +16,7 @@ const RelaxTime = () => {
           bg-base-200
           font-medium
           flex
+          gap-2
           flex-col
           lg:flex-row
         "
@@ -23,7 +24,7 @@ const RelaxTime = () => {
         <img
           src={relax}
           alt="Relax time"
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm"
         />
 
         <div>

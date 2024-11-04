@@ -4444,6 +4444,14 @@ input.tab:checked + .tab-content,
   max-width: 24rem;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
+.grow-0 {
+  flex-grow: 0;
+}
+
 .list-outside {
   list-style-position: outside;
 }

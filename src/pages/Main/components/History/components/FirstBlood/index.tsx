@@ -14,6 +14,7 @@ const FirstBlood = () => {
           rounded-lg
           bg-base-200
           font-medium
+          gap-2
           flex
           flex-col
           lg:flex-row-reverse
@@ -22,7 +23,7 @@ const FirstBlood = () => {
         <img
           src={firstBlood}
           alt="First blood"
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm rounded-lg"
         />
 
         <div>
