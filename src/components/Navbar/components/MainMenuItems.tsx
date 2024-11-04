@@ -15,6 +15,7 @@ const MainMenuItems = () => {
   );
 
   const onClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    window.scrollTo({ top: 0 });
     event.currentTarget.blur()
   };
 
