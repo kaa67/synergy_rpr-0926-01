@@ -34,10 +34,9 @@ const HotTimes = () => {
         </p>
 
         <p>
-          Работал веб-мастером/devops
-          группы компаний «Ласпи», обслуживая несколько сервисов, систему
-          продажи туров, систему продажи авиа/жд перевозок, системы
-          билетопечати, сайты-сателлиты маркетинговой группы
+          Работал веб-мастером/devops группы компаний «Ласпи», обслуживая
+          несколько сервисов, систему продажи туров, систему продажи авиа/жд
+          перевозок, системы билетопечати, сайты-сателлиты маркетинговой группы
         </p>
 
         <div className="flex flex-col sm:flex-row flex-wrap gap-2 justify-center content-center">
@@ -48,34 +47,37 @@ const HotTimes = () => {
           <img src={milkmama} alt="Milkmama" />
         </div>
 
+        <hr />
         <p>
-          Ярким примером проектов того времени является сайт каирского фестиваля
+          Ярким примером проектов того времени является сайт Каирского фестиваля
           <br />
-          <img src={cairo} alt="Cairo khan" style={{ width: '16rem' }} />
-
+          <img src={cairo} alt="Cairo khan" style={{ width: "16rem" }} />
           <a
             href="http://www.cairo-khan.com/"
             target="_blank"
             rel="noreferrer"
             title="Сайт каирского фестиваля"
             className="link link-error"
-          >Cairo Khan</a>
+          >
+            Cairo Khan
+          </a>
         </p>
 
         <p>
           Ему 10 лет
           <br />
-          <img src={cairoWhois} alt="Cairo khan" style={{ width: '16rem' }} />
+          <img src={cairoWhois} alt="Cairo khan" style={{ width: "16rem" }} />
         </p>
 
         <p>
           Он уже адаптивный, но ещё не mobile first.
           <br />
-          Построен на гребне волны того времени: Bootstrap3, на многочисленных плагинах и самом jquery, на молодом и дерзком Codeigniter2 (Backend)
+          Построен на гребне волны того времени: Bootstrap3, на многочисленных
+          плагинах и самом jquery, на молодом и дерзком Codeigniter2 (Backend)
           <br />
           Уже предприняты все действия по заметанию "бутстрапомании"
           <br />
-          И глядя в html, вспоминаешь, что это было время битвы с кривым девятым ишаком
+          Глядя в html, вспоминаешь, что это было время битвы со старыми ишаками
           <br />
           <small>
             ...
@@ -86,9 +88,11 @@ const HotTimes = () => {
             <br />
             [if lt IE 9]
             <br />
-            script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
+            script
+            src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
             <br />
-            script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"
+            script
+            src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"
             <br />
             [endif]
             <br />
@@ -100,12 +104,11 @@ const HotTimes = () => {
             <br />
             [if lt IE 9]
             <br />
-              contact_form_IE9_placeholder_fix();
+            contact_form_IE9_placeholder_fix();
             <br />
             [endif]
           </small>
         </p>
-
       </div>
     </section>
   );
