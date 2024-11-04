@@ -73,7 +73,7 @@ const AboutWorkTime = () => (
         </li>
 
         <li className="py-1">
-          По факту возникновения новой, особенно неожиданной новой задачи - всегда требую пересчитать времена исполнения задач, которые были мне поставлены ранее
+          По факту возникновения новой, особенно неожиданной новой задачи - всегда требую пересчитать времена исполнения и/или приоритеты задач, которые были мне поставлены ранее
         </li>
       </ul>
 
@@ -89,9 +89,10 @@ const AboutWorkTime = () => (
         О соблазнах удаленной работы
       </p>
 
-      <p className="flex flex-row justify-center align-middle">
+      <p className="flex flex-row align-middle">
         <img 
           src={tempted}
+          style={{ width: '500px' }}
           alt="Tempted"
           className="rounded-lg shadow-2xl"
         />
