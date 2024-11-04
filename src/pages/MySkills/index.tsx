@@ -24,11 +24,11 @@ const MySkills = () => {
         </p>
 
         <p>
-          React, Redux(Boilerplate/Toolkit), Effector, Saga, Axios, Moment/fns-date
+          React, Redux(Boilerplate/Toolkit), Effector, Saga, Axios, Moment/fns-date, Socket.io
         </p>
 
         <p>
-          Linux(Ubuntu), Node(npm, nvm), Git/Github/Gitlab, vim/neovim/VsCode
+          Linux(Ubuntu), Node(npm, nvm), Git/Github/Gitlab, vim/neovim/VS Code
         </p>
 
         <p>
@@ -62,6 +62,41 @@ const MySkills = () => {
           1C
         </p>
 
+      </div>
+
+
+      <SectionHeader>
+        Вещи в процессе изучения
+      </SectionHeader>
+
+      <div
+        className="
+          p-8
+          text-base
+          rounded-lg
+          bg-base-200
+          font-medium
+        "
+      >
+        <p>
+          Next - Планирую применять в будущем
+        </p>
+
+        <p>
+          Vue3 - планирую применять в будущем
+        </p>
+
+        <p>
+          Angular - планирую применять в будущем
+        </p>
+
+        <p>
+          Семейство STM32, Stm32CubeIDE, c/c++ - Есть несколько проектов, продолжаю изучение
+        </p>
+
+        <p>
+          Golang - из-за потребности в микросервисном слое обмена данными микропроцессор - демон на ПК (по USB), затем демон ПК - сервер системы управления (Socket.io)
+        </p>
       </div>
     </section>
   );
