@@ -4,7 +4,7 @@ import tempted from 'media/images/work_time.png';
 
 const AboutWorkTime = () => (
   <section>
-    <SectionHeader>Рабочее время</SectionHeader>
+    <SectionHeader>Наши дни. Рабочее время</SectionHeader>
 
     <div
       className="
