@@ -15,6 +15,7 @@ const ProfessionalExperience = () => (
         rounded-lg
         bg-base-200
         font-medium
+        divide-dashed
         divide-gray-200
         dark:divide-gray-600
       "

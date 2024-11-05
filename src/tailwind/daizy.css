@@ -3780,28 +3780,6 @@ html {
   margin-inline-start: calc(var(--border-btn) * -1);
 }
 
-.link-primary {
-  --tw-text-opacity: 1;
-  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)));
-}
-
-@supports (color:color-mix(in oklab,black,black)) {
-  @media (hover:hover) {
-    .link-primary:hover {
-      color: color-mix(in oklab,var(--fallback-p,oklch(var(--p)/1)) 80%,black);
-    }
-
-    .link-error:hover {
-      color: color-mix(in oklab,var(--fallback-er,oklch(var(--er)/1)) 80%,black);
-    }
-  }
-}
-
-.link-error {
-  --tw-text-opacity: 1;
-  color: var(--fallback-er,oklch(var(--er)/var(--tw-text-opacity)));
-}
-
 .link:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -4449,6 +4427,10 @@ html {
   border-bottom-width: calc(1px * var(--tw-divide-y-reverse));
 }
 
+.divide-dashed > :not([hidden]) ~ :not([hidden]) {
+  border-style: dashed;
+}
+
 .divide-gray-200 > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-divide-opacity));
@@ -4504,6 +4486,10 @@ html {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .p-8 {
@@ -4682,6 +4668,10 @@ p {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:gap-x-2 {
