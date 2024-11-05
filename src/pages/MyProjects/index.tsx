@@ -106,7 +106,7 @@ const MyProjects = () => {
         <p>Эскизы из Figma, адаптив, desktop only (от HD)</p>
       </div>
 
-      <SectionHeader>Банк (РФ)</SectionHeader>
+      <SectionHeader>Системы Банка</SectionHeader>
 
       <div
         className="

@@ -5,20 +5,11 @@ const MyContacts = () => {
   return (
     <section>
       <Header>Контакты и обратная связь</Header>
-      <div
-        className="
-          p-8
-          text-base
-          rounded-lg
-          bg-base-200
-          font-medium
-        "
-      >
-        <p>Контактный телефон: +X XXX XXX XXXX</p>
-        <p>Контактный email: mail@mail.mail</p>
 
-        <p>Задайте мне вопрос, используя форму обратной связи</p>
-      </div>
+      <p>Контактный телефон: +X XXX XXX XXXX</p>
+      <p>Контактный email: mail@mail.mail</p>
+
+      <p>Задайте мне вопрос, используя форму обратной связи</p>
 
       <SectionHeader>Форма обратной связи</SectionHeader>
 
@@ -57,8 +48,12 @@ const MyContacts = () => {
           </label>
 
           <div className="flex flex-row gap-2 py-4">
-            <button type="submit" className="btn btn-outline">Отправить</button>
-            <button type="reset" className="btn btn-outline">Очистить поля</button>
+            <button type="submit" className="btn btn-outline">
+              Отправить
+            </button>
+            <button type="reset" className="btn btn-outline">
+              Очистить поля
+            </button>
           </div>
         </form>
       </div>

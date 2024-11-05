@@ -57,7 +57,7 @@ const HotTimes = () => {
             target="_blank"
             rel="noreferrer"
             title="Сайт каирского фестиваля"
-            className="link link-error"
+            className="link"
           >
             Cairo Khan
           </a>

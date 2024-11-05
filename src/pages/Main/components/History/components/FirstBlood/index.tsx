@@ -56,7 +56,7 @@ const FirstBlood = () => {
               rel="noreferrer"
               title="My first blood"
               href="http://vyvoz.narod.ru"
-              className="link link-error"
+              className="link"
             >
               Мой первый проект (My first blood)
             </a>
